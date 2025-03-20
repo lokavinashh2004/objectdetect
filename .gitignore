@@ -1,0 +1,44 @@
+# Ignore virtual environments
+venv
+.env
+*.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore large files and models
+*.pt
+*.onnx
+*.tflite
+*.pb
+*.engine
+runs/
+weights/
+models/*.pt
+
+# Ignore datasets and output files
+datasets/
+*.zip
+*.tar
+*.rar
+*.7z
+*.csv
+*.json
+*.xml
+
+# Ignore logs and checkpoints
+logs/
+*.log
+*.out
+*.err
+*.ckpt
+*.h5
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
